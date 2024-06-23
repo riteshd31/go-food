@@ -1,0 +1,75 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #ffffff;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #dcdcdc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #cfcfcf;
+  }
+  
+  .category-buttons {
+    margin-bottom: 20px;
+    
+
+  }
+  
+  .category-buttons button.active {
+    background-color: #1d510b;
+    color: rgb(255, 255, 255);
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    text-align: center;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+  }
+  
+  .pagination span {
+    margin: 0 10px;
+  }
+  
